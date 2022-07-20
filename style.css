@@ -1,0 +1,167 @@
+
+      html,
+      body{
+        background: #E8D426 !important;
+        font-family: 'Muli', sans-serif;
+        
+      }
+      h1{
+        color: #fff;
+        padding-bottom: 2rem;
+        font-weight: bold;
+      }
+      a{
+        color: #333;
+      }
+      a:hover{
+        color: #E8D426;
+        text-decoration: none;
+      }
+      .form-control:focus {
+      
+          color: #000;
+          background-color: #fff;
+          border:2px solid #E8D426;
+          outline: 0;
+          box-shadow: none;
+      
+      }
+      
+      .btn{
+        background: #E8D426;
+        border: #E8D426;
+      }
+      .btn:hover {
+        background: #E8D426;
+        border: #E8D426;
+      }
+   
+
+      a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      img {
+        width: 30px;
+      }
+
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+
+      .modal-content {
+        padding: 0 22px;
+      }
+
+      .modal-icons {
+        border-top: 0.5px solid #dadada;
+        height: 50px;
+        width: 100%;
+      }
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+
+      .version {
+        color: #444;
+        font-size: 18px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+      }
+
+      .flex:hover {
+        opacity: 0.4;
+      }
+
+      .flex .fa {
+        font-size: 40px;
+        color: #2f5876;
+      }
+
+      #feedback-form {
+        width: 280px;
+        margin: 0 auto;
+        background-color: #fcfcfc;
+        padding: 20px 50px 40px;
+        box-shadow: 1px 4px 10px 1px #aaa;
+        font-family: sans-serif;
+      }
+      
+      #feedback-form * {
+          box-sizing: border-box;
+      }
+      
+      #feedback-form h2{
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      
+      #feedback-form input {
+        margin-bottom: 15px;
+      }
+      
+      #feedback-form input[type=text] {
+        display: block;
+        height: 32px;
+        padding: 6px 16px;
+        width: 100%;
+        border: none;
+        background-color: #f3f3f3;
+      }
+      
+      #feedback-form label {
+        color: #777;
+        font-size: 0.8em;
+      }
+      
+      #feedback-form input[type=checkbox] {
+        float: left;
+      }
+      
+      #feedback-form input:not(:checked) + #feedback-phone {
+        height: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      
+      #feedback-form #feedback-phone {
+        transition: .3s;
+      }
+      
+      #feedback-form button[type=submit] {
+        display: block;
+        margin: 20px auto 0;
+        width: 150px;
+        height: 40px;
+        border-radius: 25px;
+        border: none;
+        color: #eee;
+        font-weight: 700;
+        box-shadow: 1px 4px 10px 1px #aaa;
+        
+        background: #207cca; /* Old browsers */
+        background: -moz-linear-gradient(left, #207cca 0%, #9f58a3 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, #207cca 0%,#9f58a3 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, #207cca 0%,#9f58a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#9f58a3',GradientType=1 ); /* IE6-9 */
+      }
